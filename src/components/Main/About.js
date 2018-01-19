@@ -30,6 +30,10 @@ class About extends React.Component {
               <p>Decentralization (not run by a specific group)</p>
               <p>Transparency (freedom from manipulation doubt)</p>
               <p>Ticket purchase, lottery, and winnings are all handled through Smart Contract.</p>
+
+              <h1>Global Lottery!</h1>
+              <p>The existing lottery is only limited to people who live there.</p>
+              <p>However, any ethereum user can play Cryptto.</p>
       
               <h1>Is this fair?</h1>
               <p>Yes! It doesn't use numbers from random.org as winning numbers directly.</p>
@@ -60,6 +64,10 @@ class About extends React.Component {
               <p>투명한 운영(조작가능성제로)</p>
               <p>티켓 구매, 복권 구조, 추첨등의 모든 과정이 스마트 컨트랙트에 의해 이루어짐</p>
               <p>번호 추첨은 random.org로부터 받아와서 blockhash를 더해서 한번 더 변형시킴</p>
+
+              <h1>국경을 추월한 복권!</h1>
+              <p>기존의 복권은 발행한 국가의 국민이 아니면 구입이 제한되어 있는 구조였습니다.</p>
+              <p>하지만 Cryptto는 이더리움 이용자라면 누구든지 이용이 가능합니다.</p>
       
               <h1>그래서 이것은 공정합니까?</h1>
               <p>네, 그렇습니다! Cryptto는 random.org에서 받아온 번호를 그대로 쓰지않습니다.</p>
