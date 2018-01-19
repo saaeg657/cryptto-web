@@ -13,6 +13,20 @@ import GameHistory from '../components/Main/GameHistory';
 import Question from '../components/Main/Question';
 
 class Routes extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      language: 'EN'
+    };
+    this.setLanguage = this.setLanguage.bind(this);
+  }
+
+  setLanguage(language) {
+    this.setState({
+      language
+    });
+  }
+
   render() {
     return (
       <div>
@@ -139,16 +153,16 @@ class Routes extends React.Component {
           }} />
         <NavBar />
         <Switch>
-          <Route exact path='/' component={Play} />
-          <Route exact path='/play' component={Play} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/howtoplay' component={Howto} />
-          <Route exact path='/smartcontract' component={SmartContract} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/gamehistory' component={GameHistory} />
-          <Route exact path='/question' component={Question} />
+          <Route exact path='/' render={() => <Play language={this.state.language} />} />
+          <Route exact path='/play' render={() => <Play language={this.state.language} />} />
+          <Route exact path='/about' render={() => <About language={this.state.language} />} />
+          <Route exact path='/howtoplay' render={() => <Howto language={this.state.language} />} />
+          <Route exact path='/smartcontract' render={() => <SmartContract language={this.state.language} />} />
+          <Route exact path='/contact' render={() => <Contact language={this.state.language} />} />
+          <Route exact path='/gamehistory' render={() => <GameHistory language={this.state.language} />} />
+          <Route exact path='/question' render={() => <Question language={this.state.language} />} />
         </Switch>
-        <Footer />
+        <Footer setLanguage={this.setLanguage} />
       </div>
     );
   }
