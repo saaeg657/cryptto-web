@@ -22,6 +22,8 @@ class Question extends React.Component {
               <p>A. Congratulation! Cryptto don't pay the prize automatically. If you have a winning ticket, "RECEIVE" button appears at "win?" column of Game History table. The due date is limitless</p>
               <h2>Q. Can I know the numbers which I've selected for game?</h2>
               <p>A. Sure, you can identify the numbers you bet on "Bet Numbers" column of Game History table</p>
+              <h2>Q. How does drawing numbers work?</h2>
+              <p>A. Cryptto get the random numbers from random.org by Oraclize and modify it with blockhash.</p>
             </div>
           )
         case 'KR':
@@ -34,6 +36,8 @@ class Question extends React.Component {
               <p>A. 축하드립니다! Cryptto는 상금을 자동으로 지급하지않습니다. 당첨되었다면 Game History의 해당 회차에서 "Win?"칸에 상금을 지급받는 트랜잭션을 보낼 수 있는 RECEIVE 버튼이 생길 것 입니다. 지급기간은 무제한입니다.</p>
               <h2>Q. 제가 선택하였던 번호들을 알 수 있습니까?</h2>
               <p>A. 네, 당신은 Game History에서 Bet Numbers칸의 SHOW button을 눌러서 당신이 구입한 번호들을 확인할 수 있습니다.</p>
+              <h2>Q. 번호 추첨은 어떤 방식으로 이루어집니까?</h2>
+              <p>A. Cryptto는 random.org에서 랜덤 번호를 가져와서 blockhash로 그것을 변형시켜서 사용합니다. </p>
             </div>
           )
       }
