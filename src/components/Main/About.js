@@ -3,7 +3,8 @@ import React from 'react';
 const styles = {
   contents: {
     width: '40%',
-    margin: 'auto'
+    margin: 'auto',
+    marginBottom: 150
   }
 };
 

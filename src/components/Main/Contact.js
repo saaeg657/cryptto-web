@@ -4,7 +4,7 @@ const styles = {
   contents: {
     width: '30%',
     margin: 'auto',
-    marginTop: 100,
+    marginTop: 150,
   },
   img: {
     height: 500
