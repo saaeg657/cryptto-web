@@ -402,7 +402,7 @@ class Play extends React.Component {
         </div>
 
         <div style={styles.contents}>
-          <div style={styles.title}>Welcome to Cryptto{this.props.language}</div>
+          <div style={styles.title}>Welcome to Cryptto</div>
           <div style={styles.networkInfo}>
             <div>Network: {this.state.networkName}</div>
             <div>Contract: {crypttoContract.options.address}</div>
