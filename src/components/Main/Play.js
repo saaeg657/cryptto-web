@@ -430,7 +430,7 @@ class Play extends React.Component {
             <span style={styles.numTicketsInfo}>{this.state.betNumbersList.length} tickets</span>
             <span> = {web3.utils.fromWei(BigNumber(this.state.betNumbersList.length * this.state.currentGame._ticketPrice).toString(), 'ether')}eth + feeForTx</span>
             <span style={styles.sendTxStatus}>{this.state.sendTxStatus}</span>
-            <div style={{ textAlign: 'right', width: '80%' }}>*Numbers doesn't need to be ordered.</div>
+            <div style={{ textAlign: 'right', width: '80%' }}>*Numbers don't need to be ordered.</div>
             <div style={styles.ticketForm}>
               {Array(this.state.numTickets).fill(null).map((_, index1) => (
                 <div key={index1}>
