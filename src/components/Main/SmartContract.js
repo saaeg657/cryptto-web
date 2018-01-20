@@ -17,7 +17,7 @@ class SmartContract extends React.Component {
     return(
       <div style={styles.contents}>
         <h1>Smart Contract</h1>
-        <SyntaxHighlighter language='javascript' style={docco}>{codeString}</SyntaxHighlighter>
+        {/* <SyntaxHighlighter language='javascript' style={docco}>{codeString}</SyntaxHighlighter> */}
       </div>
     )
   }
